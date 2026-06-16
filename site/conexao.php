@@ -1,14 +1,14 @@
 <?php
 
-$servidor = "localhost";
-$usuario = "root";
-$senha = "";
-$banco = "shopcenter";
+$servidor = "sql106.infinityfree.com";
+$usuario = "if0_42192552";
+$senha = "Meury030476";
+$banco = "if0_42192552_shopcenter";
 
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 
-if(!$conexao){
-    die("Usúario não cadastrado " . mysqli_connect_error());
+if (!$conexao) {
+    die("Erro na conexão: " . mysqli_connect_error());
 }
 
 ?>
