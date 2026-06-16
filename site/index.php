@@ -19,7 +19,10 @@
   <div>
     <h2 class="titulo"> SHOP CENTER <span class="variedades">Variedades!</span> </h2>
   </div>
-  <h3 class="seuestilo" > Variedades para o seu estilo e dia a dia, com conforto, <br> qualidade e preço acessível. </h3>
+  <div class="banner-principal">
+   <h3 class="seuestilo" > Variedades para o seu estilo e dia a dia, com conforto, <br> qualidade e preço acessível. </h3>
+  </div>
+
   <img class="bolsa" src="../imgsite/bolsa.nova.png" alt="Bolsa">
   <div>
     <a href="produtos.php" class="shopacesso">
